@@ -4,14 +4,47 @@
   box-sizing: border-box;
 }
 
-#card {
-  background-color: rgb(252, 188, 244);
+/* Main design */
+
+header {
+  background-color: lightpink;
+  padding: 0.2rem;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  padding: 10px;
+  background-image: url(images/tinkaton\ sleep.png);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(221, 91, 137, 255);
+  padding: 0.2rem;
+  border-radius: 9px;
+}
+
+/* Card design */
+.card {
+  background-color: lightpink;
   width: fit-content;
   height: fit-content;
-  border: 7px rgb(239, 119, 217) double;
+  border: 7px rgb(255, 164, 178) double;
   padding: 10px;
   border-radius: 10px;
   margin: 20px 30px;
+  display: flex;
+  flex-direction: row;
 }
 
 #img {
