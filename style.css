@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#card {
+  background-color: rgb(252, 188, 244);
+  width: fit-content;
+  height: fit-content;
+  border: 7px rgb(239, 119, 217) double;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 30px;
+}
+
+#img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#heading-text {
+  display: inline;
+}
+
+#text-cont {
+  display: inline-block;
+}
+
+.txt {
+  display: block;
+}
