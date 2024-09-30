@@ -6,23 +6,24 @@
 
 /* Main design */
 
-header {
+.navbar {
   background-color: lightpink;
-  padding: 0.2rem;
+  padding: 8px;
   border-radius: 9px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 body {
   padding: 10px;
-  background-image: url(images/tinkaton\ sleep.png);
+  background-image: url(images/0959Tinkaton.png);
 }
 
 main {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto;
 }
 
 footer {
@@ -34,17 +35,41 @@ footer {
   border-radius: 9px;
 }
 
+/* About card design */
+.about-card {
+  background-color: #d2a7cf;
+  width: fit-content;
+  height: fit-content;
+  border: 7px #63418b double;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
 /* Card design */
 .card {
   background-color: lightpink;
   width: fit-content;
   height: fit-content;
+  word-wrap: break-word;
   border: 7px rgb(255, 164, 178) double;
   padding: 10px;
   border-radius: 10px;
   margin: 20px 30px;
   display: flex;
   flex-direction: row;
+  text-wrap: wrap;
+  gap: 5px;
+}
+
+#Evolution {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #img {
@@ -53,14 +78,24 @@ footer {
   border-radius: 10px;
 }
 
-#heading-text {
+.heading-text {
   display: inline;
 }
 
-#text-cont {
+.text-cont {
   display: inline-block;
 }
 
 .txt {
   display: block;
+}
+
+/* Footer design */
+.button {
+  border-radius: 50px;
+  cursor: pointer;
+  img {
+    width: 70px;
+    height: 70px;
+  }
 }
